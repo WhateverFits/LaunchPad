@@ -1,0 +1,4 @@
+{
+   "state": "Test",
+   "safety": true
+}

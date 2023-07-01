@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head>
+      <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0'>
+      <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+      <title>Launcher</title>
+      <link rel="stylesheet" href="/main.css" />
+   </head>
+   <body data-role='page'>
+      <div data-role='header'>
+         <H2>Launcher</H2>
+      </div>
+      <div class='ui-content'>
+         <h1 id="launchText" style="display:none">Launch</h1>
+         <fieldset data-role='controlgroup' data-type='horizontal' id='controls'>
+            <div id="safetyon" style="display:none"><h4>Safety Engaged</h4></div>
+            <div id="safetyoff" style="display:none"><h4>Safety Disengaged</h4></div>
+            <div id="state"></div>
+            <div id="launchers"></div>
+            <button id="statusButton" class="btn btn-success">Get Status</button>
+            <button id="readyButton" class="btn btn-warning">Set Ready</button>
+            <button id="standbyButton" class="btn btn-info">Set Standby</button>
+            <button id="launchButton" class="btn btn-danger">Launch</button>
+         </fieldset>
+      </div>
+      <div data-role='footer'></div>
+      <script src="/main.js" ></script>
+   </body>
+</html>
+
